@@ -1,14 +1,14 @@
 .theme{
 text-align:center;
+font-family:arial,sans-serif;
+font-size:small
 }
-
+/* structure! */
 .topDiv{
     top:0;
     position: fixed;
-background-color: lightgray;
 width:100vw;
 }
-
 .middleDiv{
 text-align:center;
 margin-top:30vh;
@@ -16,11 +16,10 @@ margin-top:30vh;
  } 
 
 .bottomDiv{
-    background-color: lightgray;
+    background-color: whitesmoke;
     position:fixed;
     width:100vw;
     bottom:0;
-
     }
  /* search bar stuff */
 .searchBar{
@@ -31,12 +30,35 @@ box-shadow:1px 1px #888888;
 }
 .left{
     float:left;
+   padding:15px;
+
 }
 .right{
     float:right;
+    padding:15px;
+    padding-right:18px;
+}
+.icon{
+width: 20px;
+padding-left:10px;
+padding-right:10px;
+}
+.sign{
+height:30px;
+width:70px;
+background-color:blue; 
+color: white;
+}
+.button{
+height:35px;
+width:130px;
+background-color:whitesmoke;
+color:rgb(80, 76, 76)
 }
 
-
+.links{
+    padding: 15px;
+}
 
 
 
